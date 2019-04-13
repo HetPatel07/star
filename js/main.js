@@ -5,8 +5,7 @@ for (i = 0; i < 11; i++) {
         document.write('&nbsp&nbsp \t');
         if (i == 0 && j == 4) {
             document.write('&nbsp&nbsp \t');
-        }
-       else if (i == 0 && j == 5) {
+        } else if (i == 0 && j == 5) {
             document.write('* \t');
         } else if (i == 1 && j == 4) {
             document.write('* \t');
@@ -68,26 +67,26 @@ for (i = 0; i < 11; i++) {
             document.write('&nbsp \t');
         } else if (i == 7 && j == 8) {
             document.write('* \t');
-        }
-         else if (i == 8 && j == 3) {
+        } else if (i == 8 && j == 3) {
             document.write('* \t');
         } else if (i == 8 && j == 5) {
             document.write('* \t');
         } else if (i == 8 && j == 7) {
             document.write('* \t');
-        }
-         else if (i == 9 && j == 4) {
-            document.write('* \t');
         } else if (i == 9 && j == 5) {
+            document.write('* \t');
+        } else if (i == 9 && j == 3) {
+            document.write('* \t');
+        } else if (i == 9 && j == 4) {
             document.write('* \t');
         } else if (i == 9 && j == 6) {
             document.write('* \t');
-        }
-       else if (i == 10 && j == 5) {
+        } else if (i == 10 && j == 3) {
             document.write('* \t');
-        }
-        else if (i == 10 && j == 4) {
+        } else if (i == 10 && j == 4) {
             document.write('&nbsp&nbsp \t');
+        } else if (i == 10 && j == 7) {
+            document.write('* \t');
         }
     }
     document.write('<br>');
